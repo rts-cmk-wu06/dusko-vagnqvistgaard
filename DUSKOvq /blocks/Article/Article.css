@@ -1,0 +1,35 @@
+/* desktop / tablets */
+
+@media screen and (min-width: 601px) {
+    .Article {}
+    /* .Article .Article__head{
+        Se i 'mix/heading-sans-m.css' for yderligere 
+        color: white;
+        margin-top: 1.5rem;
+    } */
+    .Article .Article__body {
+        /* se også 'mix/font-courier-s-alpha.css */
+        margin-top: 16.3rem;
+        margin-left: 11rem;
+        margin-right: 2.25rem;
+    }
+}
+
+
+/* general mobile */
+
+@media screen and (max-width: 600px) {
+    .Article {}
+    /* .Article .Article__head{
+        Se i 'mix/heading-sans-m.css' for yderligere 
+        color: white;
+        margin-top: 1.5rem;
+    } */
+    .Article .Article__body {
+        /* se også 'mix/font-courier-s-alpha.css */
+        margin-top: 1rem;
+        padding-left: 5vw;
+        padding-right: 5rem;
+        padding-bottom: 2rem
+    }
+}

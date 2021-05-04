@@ -1,0 +1,44 @@
+/* desktop / tablets */
+
+@media screen and (min-width: 601px) {
+    .Nav {
+        grid-column: 1 / 2;
+        grid-row: 1 / 1;
+    }
+    .Nav .Nav__list {
+        display: flex;
+        flex-flow: row nowrap;
+        margin-top: 2.25rem;
+        margin-bottom: 0;
+        list-style-type: none;
+        font-family: Verdana, sans-serif;
+    }
+    .Nav .Nav__anchor {
+        /*  Kig i 'mix/button-box-s' for detaljer */
+        background-color: white;
+        color: black;
+    }
+}
+
+
+/* general mobile */
+
+@media screen and (max-width: 600px) {
+    .Nav {
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+    }
+    .Nav .Nav__list {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        list-style-type: none;
+        font-family: Verdana, sans-serif;
+    }
+    .Nav .Nav__anchor {
+        background-color: white;
+        color: black;
+    }
+}
